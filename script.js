@@ -1,25 +1,15 @@
-const form = document.getElementById('formAgro');
+// Formulário de contato
+const form = document.getElementById('formContato');
+const resposta = document.getElementById('resposta');
 
-form.addEventListener('submit', async (e) => {
+form.addEventListener('submit', (e) => {
     e.preventDefault();
 
-    const dados = {
-        umidade: document.getElementById('umidade').value,
-        temperatura: document.getElementById('temperatura').value,
-        ph: document.getElementById('ph').value,
-        sustentabilidade: document.getElementById('sustentabilidade').value
-    };
+    const nome = document.getElementById('nome').value;
+    const email = document.getElementById('email').value;
+    const mensagem = document.getElementById('mensagem').value;
 
-    const resposta = await fetch('http://127.0.0.1:5000/monitoramento', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(dados)
-    });
+    resposta.innerHTML = `<p>Obrigado, ${nome}! Sua mensagem foi enviada com sucesso. ✅</p>`;
 
-    const resultado = await resposta.json();
-
-    document.getElementById('resultado').innerHTML =
-        `<p>${resultado.mensagem}</p>`;
+    form.reset();
 });

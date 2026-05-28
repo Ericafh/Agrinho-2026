@@ -1,38 +1,119 @@
-body {
+/* Reset básico */
+* {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f4fff4;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f4fff4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+/* Header */
 header {
     background: #2e7d32;
     color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero */
+#hero {
+    background: url('assets/imagens/campo.jpg') no-repeat center center/cover;
+    color: white;
     text-align: center;
-    padding: 30px;
+    padding: 100px 0;
+}
+
+#hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #388e3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+#hero .btn:hover {
+    background: #1b5e20;
+}
+
+/* Seções */
+section {
+    padding: 50px 0;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .card {
-    width: 400px;
-    margin: 40px auto;
+    flex: 1;
+    min-width: 250px;
     background: white;
-    padding: 25px;
+    padding: 20px;
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-input, select, button {
+/* Formulário */
+form input, form textarea, form button {
     width: 100%;
-    margin-top: 12px;
+    margin-bottom: 15px;
     padding: 10px;
 }
 
-button {
-    background: #388e3c;
+form button {
+    background: #2e7d32;
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 6px;
 }
 
-button:hover {
+form button:hover {
     background: #1b5e20;
+}
+
+/* Footer */
+footer {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
