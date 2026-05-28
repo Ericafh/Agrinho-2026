@@ -1,7 +1,3 @@
-/* =========================
-ARQUIVO: script.js
-========================= */
-
 const formulario = document.getElementById("formulario");
 const mensagem = document.getElementById("mensagem");
 
