@@ -1,15 +1,37 @@
-// Formulário de contato
-const form = document.getElementById('formContato');
-const resposta = document.getElementById('resposta');
+/* =========================
+ARQUIVO: script.js
+========================= */
 
-form.addEventListener('submit', (e) => {
+const formulario = document.getElementById("formulario");
+const mensagem = document.getElementById("mensagem");
+
+formulario.addEventListener("submit", function(event){
+
+  event.preventDefault();
+
+  mensagem.innerHTML =
+    "✅ Mensagem enviada com sucesso! Obrigado por apoiar o AgroForte.";
+
+  formulario.reset();
+
+});
+
+/* EFEITO MENU */
+
+const links = document.querySelectorAll("nav a");
+
+links.forEach(link => {
+
+  link.addEventListener("click", function(e){
+
     e.preventDefault();
 
-    const nome = document.getElementById('nome').value;
-    const email = document.getElementById('email').value;
-    const mensagem = document.getElementById('mensagem').value;
+    const id = this.getAttribute("href");
 
-    resposta.innerHTML = `<p>Obrigado, ${nome}! Sua mensagem foi enviada com sucesso. ✅</p>`;
+    document.querySelector(id).scrollIntoView({
+      behavior:"smooth"
+    });
 
-    form.reset();
+  });
+
 });

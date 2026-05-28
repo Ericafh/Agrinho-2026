@@ -1,71 +1,188 @@
+<!-- =========================
+AGROFORTE - FUTURO SUSTENTÁVEL
+Site completo para GitHub Pages
+Arquivos:
+1. index.html
+2. style.css
+3. script.js
+========================= -->
+
+<!-- =========================
+ARQUIVO: index.html
+========================= -->
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agro Forte - Sustentabilidade e Agronomia</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgroForte | Futuro Sustentável</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <h1>🌱 Agro Forte</h1>
-            <nav>
-                <ul>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
+
+  <!-- MENU -->
+  <header>
+    <div class="logo">
+      🌱 AgroForte
+    </div>
+
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#sustentabilidade">Sustentabilidade</a>
+      <a href="#tecnologia">Tecnologia</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <h1>AgroForte: O Futuro Sustentável do Campo</h1>
+
+      <p>
+        Inovação, tecnologia e sustentabilidade unidas para transformar
+        a agricultura em um modelo mais eficiente, produtivo e ecológico.
+      </p>
+
+      <a href="#sobre" class="btn">Saiba Mais</a>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="sobre" id="sobre">
+    <div class="container">
+      <h2>🌿 Sobre o Projeto</h2>
+
+      <p>
+        O AgroForte Futuro Sustentável é um projeto criado para mostrar
+        como a tecnologia pode ajudar o agronegócio a crescer sem
+        prejudicar o meio ambiente.
+      </p>
+
+      <p>
+        Nosso objetivo é incentivar práticas agrícolas sustentáveis,
+        reduzir desperdícios e aumentar a produtividade com responsabilidade ambiental.
+      </p>
+    </div>
+  </section>
+
+  <!-- CARDS -->
+  <section class="cards-section" id="sustentabilidade">
+
+    <h2>♻️ Sustentabilidade no Agro</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>💧 Economia de Água</h3>
+
+        <p>
+          Sistemas inteligentes de irrigação evitam desperdícios e ajudam
+          na preservação dos recursos hídricos.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🌞 Energia Renovável</h3>
+
+        <p>
+          O uso de energia solar nas fazendas reduz custos e diminui
+          impactos ambientais.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🌱 Solo Saudável</h3>
+
+        <p>
+          Monitoramento do solo melhora a qualidade da produção
+          e protege o meio ambiente.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TECNOLOGIA -->
+  <section class="tecnologia" id="tecnologia">
+
+    <div class="container">
+
+      <h2>🚜 Tecnologia no Campo</h2>
+
+      <div class="tecnologia-grid">
+
+        <div>
+          <h3>📡 Sensores Inteligentes</h3>
+
+          <p>
+            Sensores agrícolas ajudam produtores a acompanhar
+            temperatura, umidade e nutrientes do solo em tempo real.
+          </p>
         </div>
-    </header>
 
-    <section id="hero">
-        <div class="container">
-            <h2>Tecnologia e Sustentabilidade no Campo</h2>
-            <p>Transformando a agronomia com inovação e cuidado ambiental.</p>
-            <a href="#projetos" class="btn">Nossos Projetos</a>
+        <div>
+          <h3>🤖 Automação Rural</h3>
+
+          <p>
+            Máquinas automatizadas aumentam a produtividade
+            e reduzem desperdícios no campo.
+          </p>
         </div>
-    </section>
 
-    <section id="sobre" class="container">
-        <h2>Sobre o Agro Forte</h2>
-        <p>O Agro Forte é um site dedicado a soluções sustentáveis para o agronegócio. Nosso objetivo é unir tecnologia, pesquisa e práticas ecológicas para aumentar a produtividade sem prejudicar o meio ambiente.</p>
-    </section>
+        <div>
+          <h3>📊 Agricultura de Precisão</h3>
 
-    <section id="projetos" class="container">
-        <h2>Projetos Sustentáveis</h2>
-        <div class="cards">
-            <div class="card">
-                <h3>Monitoramento de Solo</h3>
-                <p>Sensores inteligentes que ajudam a medir umidade, pH e nutrientes do solo.</p>
-            </div>
-            <div class="card">
-                <h3>Irrigação Sustentável</h3>
-                <p>Automação para uso racional da água, reduzindo desperdícios e custos.</p>
-            </div>
-            <div class="card">
-                <h3>Energia Renovável</h3>
-                <p>Implantação de painéis solares e bioenergia para operações agrícolas.</p>
-            </div>
+          <p>
+            Dados e análises ajudam agricultores a tomar decisões
+            mais eficientes e sustentáveis.
+          </p>
         </div>
-    </section>
 
-    <section id="contato" class="container">
-        <h2>Contato</h2>
-        <form id="formContato">
-            <input type="text" id="nome" placeholder="Seu nome" required>
-            <input type="email" id="email" placeholder="Seu email" required>
-            <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-        <div id="resposta"></div>
-    </section>
+      </div>
 
-    <footer>
-        <p>© 2026 Agro Forte | Sustentabilidade e Agronomia</p>
-    </footer>
+    </div>
 
-    <script src="script.js"></script>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contato" id="contato">
+
+    <div class="container">
+
+      <h2>📩 Contato</h2>
+
+      <form id="formulario">
+
+        <input type="text" placeholder="Seu Nome" required>
+
+        <input type="email" placeholder="Seu E-mail" required>
+
+        <textarea placeholder="Digite sua mensagem"></textarea>
+
+        <button type="submit">Enviar</button>
+
+      </form>
+
+      <p id="mensagem"></p>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 AgroForte - Futuro Sustentável 🌱</p>
+  </footer>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
