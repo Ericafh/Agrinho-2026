@@ -1,11 +1,11 @@
-🌾Agro forte, futuro sustentável.
+🌾AgroForte: O Futuro Sustentável do Campo
 Projeto desenvolvido para o Concurso Agrinho 2026 – Categoria Programação, na Subcategoria 3: Programação Front-End – HTML, CSS e JavaScript.
 
 🌱 Tema do Concurso
 Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente
 
 📌 Sobre o Projeto
-O projeto “Agro forte, futuro sustentável” (fala um pouco sobre inovação, tecnologia e sustentabilidade unidas para transformar a agricultura em um modelo mais eficiente, produtivo e ecológico.)
+O projeto “AgroForte: O Futuro Sustentável do Campo” (fala um pouco sobre inovação, tecnologia e sustentabilidade unidas para transformar a agricultura em um modelo mais eficiente, produtivo e ecológico.)
 
 Por meio de textos, imagens e curiosidades, o site busca aproximar o visitante da realidade do campo e destacar a importância de produzir com responsabilidade ambiental.
 
