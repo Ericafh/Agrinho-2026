@@ -75,10 +75,10 @@ Menu de acessibilidade com controle de fonte e contraste;
 casa.jpg  Retirado do site wikimedia Commons ()
 campo.jpg (se for da IA inserir aqui o prompt)
 👨‍🎓 Autoria
-Autor(a): Nome do(a) estudante
-Professor(a) orientador(a): Nome do(a) professor(a)
-Escola: Nome da instituição de ensino
-Município: Guarapuava – Paraná
+Autor(a): Erica Filipin Hoffmann
+Professor(a) orientador(a): Alexandra Terezinha Kapusinski
+Escola: CCM Edite Cordeiro Marques - EFM
+Município: Turvo – Paraná
 
 🖼️ Créditos dos Recursos Utilizados
 As imagens, vídeos, ícones, textos e demais recursos visuais utilizados neste projeto foram produzidos ou organizados para fins educacionais no contexto do Concurso Agrinho 2026.
