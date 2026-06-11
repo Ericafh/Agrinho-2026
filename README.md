@@ -7,11 +7,9 @@ Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente
 📌 Sobre o Projeto
 O projeto “Título do projeto” (explique o seu projeto, o que ele apresenta)
 
-Por meio de textos, imagens, quiz, curiosidades, vídeo e história em quadrinhos, o site busca aproximar o visitante da realidade do campo e destacar a importância de produzir com responsabilidade ambiental.
-🎯 Objetivo
-O objetivo do projeto é ......................................
+Por meio de textos, imagens, curiosidades, o site busca aproximar o visitante da realidade do campo e destacar a importância de produzir com responsabilidade ambiental.
 
-O site busca explicar, de maneira simples e interativa, como a cadeia produtiva da cevada e do malte envolve diferentes etapas, pessoas, tecnologias e impactos positivos para a sociedade.
+O site busca explicar, de maneira simples e interativa, como a cadeia produtiva no campo envolve diferentes etapas, pessoas, tecnologias e impactos positivos para a sociedade.
 
 🧭 Funcionalidades do Site
 O projeto conta com as seguintes funcionalidades:
